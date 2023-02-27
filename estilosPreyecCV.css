@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+
+header {
+    padding-bottom: 60px;
+    background: #DBD2B2;
+    background: -moz-linear-gradient(left, #DBD2B2 0%, #CBC493 35%, #C9907B 100%);
+    background: -webkit-linear-gradient(left, #DBD2B2 0%, #CBC493 35%, #C9907B 100%);
+    background: linear-gradient(to right, #DBD2B2 0%, #CBC493 35%, #C9907B 100%);
+}
+
+body {
+    background: #8D78A4;
+    background: -moz-linear-gradient(left, #8D78A4 0%, #CB6CC9 35%, #C98EA8 100%);
+    background: -webkit-linear-gradient(left, #8D78A4 0%, #CB6CC9 35%, #C98EA8 100%);
+    background: linear-gradient(to right, #8D78A4 0%, #CB6CC9 35%, #C98EA8 100%);
+    ;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+
+img {
+    width: 150px;
+    left: 150px;
+}
+
+p {
+    text-align: right;
+    font-size: 23px;
+}
+
+#direccion, #telefono, #mail, #escuela, #experiencia {
+    color: rgb(109, 26, 255);
+    font-size: 20px;
+    line-height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background-image: linear-gradient(to right, rgb(219, 210, 178) 0%, rgb(203, 196, 147) 35%, rgb(201, 144, 123) 100%);
+    box-shadow: rgba(0, 0, 0, 0.25) 31px -29px 46px 38px;
+    border: 2px solid rgb(28, 110, 200);
+    display: inline-block;
+cursor: pointer;
+   
+}
+
+#nombre  {
+    cursor: pointer;
+    display: flexbox;
+    float: left;
+    text-decoration:none;
+}
+
+div {
+    font-family: 'Rubik', sans-serif;
+    text-align: right;
+    font-size: 20px;
+}
+
+.menu li:hover {
+    background: rgb(127, 187, 67);
+}
+
+.menu li {
+
+    padding: 10px;
+    ;
+}
+
+a {
+    text-align: center;
+    color: greenyellow;
+    size: 10px;
+}
+
+ul {
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 400px) {
+      #nombre, img { 
+        width: 100%;        
+        padding: 10px;
+    }          
+    p {
+        text-align: center;
+        display: block;
+    }  
+
+}
